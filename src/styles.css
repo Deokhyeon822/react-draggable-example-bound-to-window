@@ -1,0 +1,18 @@
+.container {
+  height: calc(100vh - 50px);
+  padding: 20px;
+  border : 5px solid red;
+}
+
+.draggable {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.uk-button,
+.uk-input,
+.uk-textarea,
+.uk-checkbox {
+  margin-bottom: 10px;
+  user-select: none;
+}
